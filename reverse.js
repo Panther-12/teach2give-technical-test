@@ -8,7 +8,7 @@ const sampleInteger = 123456
 
 function reverseInteger(num) {
     const reversedInteger = parseInt(Math.abs(num).toString().split('').reverse().join('')) * Math.sign(num);
-    console.log(reversedInteger)
+    console.log(`Sample integer: ${num}\nReversed integer: ${reversedInteger}`)
     return reversedInteger;
 }
 

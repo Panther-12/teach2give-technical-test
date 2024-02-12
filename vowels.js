@@ -10,7 +10,7 @@ function countVowels(sentence) {
     for (let char of sentence.toLowerCase()) {
         if (vowels.includes(char)) count++;
     }
-    console.log(count)
+    console.log(`Total no of vowels in the sentence is: ${count}`)
     return count;
 }
 

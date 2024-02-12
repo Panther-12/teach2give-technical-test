@@ -7,7 +7,7 @@ const sampleString = "Hello, My name is Nimrod. A meta certified backend enginee
 
 function capitalizeWords(str) {
     let capitalizedString = str.replace(/\b\w/g, (char) => char.toUpperCase());
-    console.log(capitalizedString)
+    console.log(`Sample string: ${sampleString}\nCapitalized string:${capitalizedString}`)
     return capitalizedString
 }
 
